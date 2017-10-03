@@ -1,0 +1,23 @@
+
+{
+    "name": "sitesense/l55bs4",
+    "description": "Laravel 5.5 Frontend Scaffolding for Bootstrap 4",
+    "keywords": ["laravel", "bootstrap 4", "scaffolding", "preset"],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "5.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sitesense\\Bootstrap4Scaffold\\": "src/"
+        }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Sitesense\\Bootstrap4Scaffold\\Bootstrap4ScaffoldServiceProvider"
+       ]
+      }
+    }
+
+}
